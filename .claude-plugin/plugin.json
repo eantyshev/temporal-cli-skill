@@ -1,0 +1,12 @@
+{
+  "name": "temporal-cli-skill",
+  "description": "Master Temporal CLI workflow management with smart query building, payload decoding, and history filtering using temporal, base64, and jq",
+  "version": "1.0.0",
+  "author": {
+    "name": "Evgeny Antyshev",
+    "url": "https://github.com/eantyshev"
+  },
+  "repository": "https://github.com/eantyshev/temporal-cli-skill",
+  "license": "MIT",
+  "skills": "./skills/"
+}
