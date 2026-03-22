@@ -19,15 +19,19 @@ A Claude Code plugin that provides comprehensive knowledge for Temporal CLI work
 
 ## Install
 
-```bash
-claude plugin install temporal-cli-skill
-```
-
-Or from a local clone:
+Clone the repo and reference it from your project's `CLAUDE.md`:
 
 ```bash
-claude --plugin-dir /path/to/temporal-cli-skill
+git clone https://github.com/eantyshev/temporal-cli-skill.git
 ```
+
+Then add to your project's `CLAUDE.md`:
+
+```markdown
+@import /path/to/temporal-cli-skill/skills/temporal-cli/SKILL.md
+```
+
+Alternatively, use the companion [temporal-cli-mcp](https://github.com/eantyshev/temporal-cli-mcp) server for tool-based access via the MCP protocol.
 
 ## What's included
 
